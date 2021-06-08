@@ -6,7 +6,8 @@ const refs = {
 
  refs.nameInut.addEventListener('input', () => {
     if (refs.nameInut.value.trim() === '') {
-        return  (refs.textSpan.textContent = "незнакомец")};
+     refs.textSpan.textContent = "незнакомец";
+    return};
   
        refs.textSpan.textContent = refs.nameInut.value
 

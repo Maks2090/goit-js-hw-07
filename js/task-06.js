@@ -3,7 +3,7 @@
 
  
  textInput.addEventListener('blur', e => {
-  if(e.currentTarget.value.length < e.target.dataset.length) {
+  if(e.currentTarget.value.length != e.target.dataset.length) {
       e.currentTarget.classList.add('invalid') ||  e.currentTarget.classList.remove('valid')
   }
 

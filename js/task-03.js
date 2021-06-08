@@ -29,7 +29,7 @@ const refs = {
   
 
   createImg(images) {
-    images.map((image) => {
+    images.forEach((image) => {
      this.arrList.push(this.createStr(image));
              
     });

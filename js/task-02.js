@@ -13,7 +13,7 @@ const refs = {
   ],
 
   allIngredients(ingredients) {
-    ingredients.map((ingredient) => {
+    ingredients.forEach((ingredient) => {
       const itemIngredient = document.createElement('li');
       itemIngredient.textContent = ingredient;
       this.arrList.push(itemIngredient);
